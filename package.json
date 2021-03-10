@@ -1,0 +1,16 @@
+{
+    "devDependencies": {
+        "cypress": "^6.6.0",
+        "cypress-xpath": "^1.4.0"
+    },
+    "dependencies": {
+        "ajv": "^7.2.1",
+        "cypress-commands": "^1.0.0",
+        "cypress-real-events": "^1.3.0"
+    },
+    "scripts": {
+        "runE2ETest": "cypress run --spec 'cypress/integration/e2e.spec.js'",
+        "runApiTest": "cypress run --spec 'cypress/integration/apiTests.spec.js'",
+        "openCypress": "cypress open"
+    }
+}
