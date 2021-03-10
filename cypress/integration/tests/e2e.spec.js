@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
-import { TOURNAMENTS_SELECT, GROUP_SELECT, GROUP_TABLE_CHECKBOX, SEARCH_TOURNAMENTS_INPUT, STAGE_SELECT, CONSTRUCT_BUTTON, NOTIFICATIONS_BLOCK, TO_BASKET_BUTTON, CARD_PREVIEW } from './locators/mainPage'
-import { BASKET, BASKET_COUNTER } from './locators/menu'
-import { DELETE_ALL_BUTTON } from './locators/basket'
+import { TOURNAMENTS_SELECT, GROUP_SELECT, GROUP_TABLE_CHECKBOX, SEARCH_TOURNAMENTS_INPUT, STAGE_SELECT, CONSTRUCT_BUTTON, NOTIFICATIONS_BLOCK, TO_BASKET_BUTTON, CARD_PREVIEW } from '../locators/mainPage'
+import { BASKET, BASKET_COUNTER } from '../locators/menu'
+import { DELETE_ALL_BUTTON } from '../locators/basket'
 
 describe("Functional E2E Automation", () => {
 

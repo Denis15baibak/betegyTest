@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-import schema from './schema/schema'
+import schema from '../schema/schema'
 
 const Ajv = require("ajv").default
 const ajv = new Ajv()
