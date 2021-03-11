@@ -2,10 +2,10 @@
 
 ## Installation
 
-Install the module.
+Install the module.(node_modules must be installed)
 
 ```shell
-npm install
+npm i
 ```
 
 ## Getting started
